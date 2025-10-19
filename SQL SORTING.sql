@@ -18,4 +18,5 @@
 --SELECT * FROM public.hephziba_customer_data WHERE email LIKE '%princeton.edu'
 --SELECT last_name, gender, preferences, d_o_b, age FROM public.hephziba_customer_data 
 --WHERE age IN (18, 20)
---SELECT first_name, d_o_b, gender, age FROM public.hephziba_customer_data WHERE age <= 15
+--SELECT first_name, d_o_b, gender, age FROM public.hephziba_customer_data WHERE age <= 15--SELECT * FROM public.hephziba_customer_data LIMIT 100
+--SELECT * FROM public.hephziba_customer_data OFFSET 100
