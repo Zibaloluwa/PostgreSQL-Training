@@ -1,0 +1,10 @@
+-- SELECT * FROM public.company_mailing_list
+-- ORDER BY id ASC 
+
+-- SELECT COALESCE (email, 'emails_not_provided') FROM public.company_mailing_list
+-- WHERE id =3
+
+--SELECT NOW ()
+
+
+--SELECT NOW ():: date
