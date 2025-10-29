@@ -8,3 +8,13 @@
 
 
 --SELECT NOW ():: date
+
+*Another topic
+--SELECT * FROM public.company_mailing_list
+-- SELECT location, COUNT (first_name) FROM public.company_mailing_list
+-- GROUP BY location
+-- HAVING COUNT (*) >4
+-- ORDER BY location ASC 
+
+SELECT location, COUNT (first_name) FROM public.company_mailing_list
+GROUP BY location HAVING COUNT (*) >4 ORDER BY location
